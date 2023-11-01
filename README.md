@@ -8,9 +8,9 @@
 
 ## Contents
 
-- [🍭 Packages](-packages)
-- [📱 Applications & Examples](-applications--examples)
-- [🔧 Tools](-tools)
+- [🍭 Packages](#-packages)
+- [📱 Applications & Examples](#-applications--examples)
+- [🔧 Tools](#-tools)
 
 ## 🍭 Packages
 
