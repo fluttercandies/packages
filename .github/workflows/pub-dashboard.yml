@@ -4,6 +4,10 @@ on:
   schedule:
     # Runs every 4 hours
     - cron: "0 0/4 * * *"
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   pub-dashboard-job:
