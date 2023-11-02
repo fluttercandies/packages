@@ -14,6 +14,7 @@
 
 ## 🍭 Packages
 
+<!-- md:PubDashboard start -->
 <sub>Sort by published | Total 70</sub>
 
 | <sub>Package</sub> | <sub>Stars/Likes</sub> | <sub>Points/Popularity</sub> | <sub>Issues</sub> | <sub>Pull requests</sub> |
@@ -103,6 +104,7 @@
 | [flutter_learning_tests](https://github.com/fluttercandies/flutter_learning_tests) | 学习 Flutter 路上的点滴及小测~ | [![GitHub stars](https://img.shields.io/github/stars/fluttercandies/flutter_learning_tests?style=social&logo=github&logoColor=1F2328&label=)](https://github.com/fluttercandies/flutter_learning_tests) | [![GitHub issues](https://img.shields.io/github/issues/fluttercandies/flutter_learning_tests?label=)](https://github.com/fluttercandies/flutter_learning_tests/issues) | [![GitHub pull requests](https://img.shields.io/github/issues-pr/fluttercandies/flutter_learning_tests?label=)](https://github.com/fluttercandies/flutter_learning_tests/pulls) |
 | [NeteaseCloudMusic](https://github.com/fluttercandies/NeteaseCloudMusic) | Flutter - NeteaseCloudMusic Flutter 版本的网易云音乐 | [![GitHub stars](https://img.shields.io/github/stars/fluttercandies/NeteaseCloudMusic?style=social&logo=github&logoColor=1F2328&label=)](https://github.com/fluttercandies/NeteaseCloudMusic) | [![GitHub issues](https://img.shields.io/github/issues/fluttercandies/NeteaseCloudMusic?label=)](https://github.com/fluttercandies/NeteaseCloudMusic/issues) | [![GitHub pull requests](https://img.shields.io/github/issues-pr/fluttercandies/NeteaseCloudMusic?label=)](https://github.com/fluttercandies/NeteaseCloudMusic/pulls) |
 | [wechat_flutter](https://github.com/fluttercandies/wechat_flutter) | wechat_flutter is Flutter version WeChat, an excellent Flutter instant messaging IM open source library! | [![GitHub stars](https://img.shields.io/github/stars/fluttercandies/wechat_flutter?style=social&logo=github&logoColor=1F2328&label=)](https://github.com/fluttercandies/wechat_flutter) | [![GitHub issues](https://img.shields.io/github/issues/fluttercandies/wechat_flutter?label=)](https://github.com/fluttercandies/wechat_flutter/issues) | [![GitHub pull requests](https://img.shields.io/github/issues-pr/fluttercandies/wechat_flutter?label=)](https://github.com/fluttercandies/wechat_flutter/pulls) |
+<!-- md:PubDashboard end -->
 
 ## 🔧 Tools
 

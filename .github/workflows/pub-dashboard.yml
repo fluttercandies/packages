@@ -1,0 +1,20 @@
+name: pub-dashboard
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  pub-dashboard-job:
+    runs-on: ubuntu-latest
+    name: pub-dashboard
+    steps:
+      - name: run pub-dashboard
+        uses: AmosHuKe/pub-dashboard@main
+        with:
+          filename: "README.md"
+          package_list: "extended_image,wechat_assets_picker,flutter_tilt"
+          sort_field: "published"
+          sort_mode: "asc"
