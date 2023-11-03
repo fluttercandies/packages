@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="FlutterCandies" src="assets/cover.jpg"/>
+  <img alt="FlutterCandies" src="assets/cover.png"/>
 </p>
 
 <p align="center">
