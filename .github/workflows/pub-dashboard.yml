@@ -6,8 +6,12 @@ on:
     - cron: "0 0/4 * * *"
   push:
     branches: [ "main" ]
+    paths:
+      - '.github/workflows/pub-dashboard.yml'
   pull_request:
     branches: [ "main" ]
+    paths:
+      - '.github/workflows/pub-dashboard.yml'
 
 jobs:
   pub-dashboard-job:
@@ -15,9 +19,12 @@ jobs:
     name: pub-dashboard
     steps:
       - name: run pub-dashboard
-        uses: AmosHuKe/pub-dashboard@v0.0.1
+        uses: AmosHuKe/pub-dashboard@v1
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_repo: "https://github.com/fluttercandies/packages"
           filename: "README.md"
-          package_list: "adaptation,assets_generator,baidupan,candies_analyzer_plugin,coordtransform,wol_cli,dash_painter,dext,env2dart,extended_image,extended_image_library,extended_list,extended_list_library,extended_nested_scroll_view,extended_sliver,extended_tabs,extended_text,extended_text_field,extended_text_library,extra_hittest_area,fconsole,ff_annotation_route,ff_annotation_route_core,ff_annotation_route_library,ff_native_screenshot,flex_grid,flutter_ali_auth,flutter_asset_generator,flutter_bdface_collect,bindings_compatible,flutter_cleaner,flutter_custom_calendar,draggable_container,flutter_drawing_board,flutter_filereader,flutter_hsvcolor_picker,flutter_image_compress,flutter_image_editor,flutter_live_activities,photo_manager,photo_manager_image_provider,flutter_qweather,record_mp3,scrollview_observer,slider_view,flutter_smart_dialog,flutter_switch_clipper,flutter_tilt,wechat_assets_picker,wechat_camera_picker,interactive_chart,harmony_os_version,http_client_helper,ios_willpop_transition_theme,left_scroll_actions,like_button,loading_more_list,loading_more_list_library,nav_router,props,pull_to_refresh_notification,ripple_backdrop_animate_route,saver_gallery,scan_barcode,stack_board,sync_scroll_library,upgrade_tool,w_popup_menu,w_reorder_list,waterfall_flow"
+          publisher_list: "fluttercandies.com"
+          package_list: "flutter_tilt,scrollview_observer,dext,flutter_custom_calendar,draggable_container,flutter_filereader,flutter_image_compress,flutter_live_activities,harmony_os_version,nav_router,saver_gallery,upgrade_tool,w_popup_menu,w_reorder_list"
           sort_field: "published"
           sort_mode: "asc"
