@@ -12,6 +12,7 @@ on:
     branches: [ "main" ]
     paths:
       - '.github/workflows/pub-dashboard.yml'
+  workflow_dispatch:
 
 jobs:
   pub-dashboard-job:
