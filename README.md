@@ -4,7 +4,7 @@
   <a href="https://github.com/fluttercandies"><img alt="GitHub FlutterCandies Stars" src="https://img.shields.io/github/stars/fluttercandies?style=social&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAACuUExURUxpcVe37lu56le781q%2F%2BVe781W79Fm%2F%2BWlmlFW17BeBula58Si199qTfdUYH9AmLjav6%2BBkXMRmQiew8BiEvgBTlb8cJQBUmEtRexZblcUQFuN1bFm%2F%2BN6ylLN5ftAjKABQlOdmYerGo%2Bm3meBfWOu3muZmYbtcY%2BdrZNuHdkS69k7E%2FoeuzOm0kt8QFVrA%2Bim4%2BlfE%2FgBPjRmJwyhSieWWgdtEQk6%2B%2BomCqFnA%2BhoJGosAAAAvdFJOUwAvNYL1eHHwAyYOa%2FRWu%2FwtrQlubGobyentMSjmNGJY6P7j%2BffSs5nCl66hwKCOkXaHLQAAAH5JREFUGNNjYMADOJA53OzsMpxIfDZ9fRYmPHxWIJ%2BRQUhNiReZz6AryKsoDeIz6%2Buzc3KysukwCSnLQgTYOQXYLQ21GTQEoVYyCvCYG1roaarCXMLFY2CgxcdvJg%2B3RtjAWEFdhZ8PYbGIkYmpnJQYklNEJSXEudD9xoHVywC7MQnV%2FUSvHwAAAABJRU5ErkJggg%3D%3D&label=FlutterCandies%20Stars"/></a> 
 </p>
 
-<img align="right" width="160px" src="assets/flash.gif"/>
+<img align="right" width="160px" alt="FlutterCandies" src="assets/flash.gif"/>
 
 <details><summary>中文简介</summary>
 
