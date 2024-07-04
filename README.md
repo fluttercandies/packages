@@ -25,6 +25,9 @@ Our vision is to "Empower every developer by building a healthy, powerful, and s
 ## Contents
 
 - [🍭 Packages](#-packages)
+  - [⏱️ Sort by published](#-packages)
+  - [👍 Sort by pubLikes](packages/sort_by_pubLikes.md)
+  - [⭐ Sort by githubStars](packages/sort_by_githubStars.md)
 - [📱 Applications & Examples](#-applications--examples)
 - [🔧 Tools](#-tools)
 

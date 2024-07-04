@@ -16,16 +16,29 @@ on:
 
 jobs:
   pub-dashboard-job:
+    strategy:
+      max-parallel: 1
+      matrix:
+        include:
+          - filename: 'README.md'
+            sort_field: 'published'
+            sort_mode: 'asc'
+          - filename: 'packages/sort_by_pubLikes.md'
+            sort_field: 'pubLikes'
+            sort_mode: 'desc'
+          - filename: 'packages/sort_by_githubStars.md'
+            sort_field: 'githubStars'
+            sort_mode: 'desc'
     runs-on: ubuntu-latest
-    name: pub-dashboard
+    name: 'pub-dashboard :: ${{ matrix.filename }} :: ${{ matrix.sort_field }} :: ${{ matrix.sort_mode }}'
     steps:
       - name: run pub-dashboard
         uses: AmosHuKe/pub-dashboard@main
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           github_repo: "https://github.com/fluttercandies/packages"
-          filename: "README.md"
+          filename: ${{ matrix.filename }}
           publisher_list: "fluttercandies.com"
           package_list: "flutter_tilt,scrollview_observer,dext,flutter_custom_calendar,draggable_container,flutter_filereader,flutter_image_compress,flutter_live_activities,harmony_os_version,nav_router,saver_gallery,upgrade_tool,w_popup_menu,w_reorder_list,"
-          sort_field: "published"
-          sort_mode: "asc"
+          sort_field: ${{ matrix.sort_field }}
+          sort_mode: ${{ matrix.sort_mode }}
