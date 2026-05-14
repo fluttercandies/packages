@@ -14,6 +14,9 @@ on:
       - '.github/workflows/pub-dashboard.yml'
   workflow_dispatch:
 
+# Disable permissions for all of the available permissions
+permissions: {}
+
 jobs:
   pub-dashboard-job:
     strategy:
@@ -36,7 +39,7 @@ jobs:
     name: 'pub-dashboard :: ${{ matrix.filename }} :: ${{ matrix.sort_field }} :: ${{ matrix.sort_mode }}'
     steps:
       - name: run pub-dashboard
-        uses: AmosHuKe/pub-dashboard@main
+        uses: AmosHuKe/pub-dashboard@24cb150a9b48e0001240c8cb6e9083daa87e80c2
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           github_repo: "https://github.com/fluttercandies/packages"
