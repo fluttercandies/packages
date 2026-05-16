@@ -19,6 +19,7 @@ permissions: {}
 
 jobs:
   pub-dashboard-job:
+    if: github.repository == 'fluttercandies/packages'
     strategy:
       max-parallel: 1
       matrix:
