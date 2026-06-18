@@ -40,7 +40,7 @@ jobs:
     name: 'pub-dashboard :: ${{ matrix.filename }} :: ${{ matrix.sort_field }} :: ${{ matrix.sort_mode }}'
     steps:
       - name: run pub-dashboard
-        uses: AmosHuKe/pub-dashboard@24cb150a9b48e0001240c8cb6e9083daa87e80c2
+        uses: AmosHuKe/pub-dashboard@a105a4f1a2f4005af80a991c65867ab0ec78bbf9 #v1.1.4
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           github_repo: "https://github.com/fluttercandies/packages"
